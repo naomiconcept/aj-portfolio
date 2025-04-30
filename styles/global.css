@@ -1,0 +1,101 @@
+/* remove default browser spacing*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "JetBrains Mono", monospace;
+}
+body {
+  background-color: black;
+}
+
+/*title text style*/
+/* the font-family 'JetBrains Mono', has been linked
+   * and is available for your use
+   * */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+h1 {
+  color: white;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.detail-box {
+  background-color: white;
+  border-radius: 20px;
+  width: 60%;
+  height: 7.5rem;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.detail-box p {
+  color: black;
+}
+
+.summary-box {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.summary-box p,
+h3 {
+  color: white;
+  line-height: 2rem;
+}
+
+#education {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+#education h1,
+p {
+  color: white;
+  padding-left: 0;
+}
+
+#experience {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+#experience h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+
+#hobbies {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+#hobbies h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+
+#skills {
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+#skills h1,
+p {
+  color: white;
+  padding-top: 0.2rem;
+}
+
+.twin {
+  display: flex;
+  padding-top: 1rem;
+}
